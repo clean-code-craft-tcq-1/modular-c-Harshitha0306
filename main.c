@@ -1,7 +1,6 @@
 
 #include <stdio.h>
-#include "colorcode.h"
-
+#include "testpair_fun.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
@@ -9,6 +8,5 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
-
     return 0;
 }
