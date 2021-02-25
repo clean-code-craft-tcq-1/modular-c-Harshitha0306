@@ -45,6 +45,6 @@ void DisplayManualReference(){
 		   pin_no++;
 		}
 	}
-
+}
 
 
