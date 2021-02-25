@@ -10,7 +10,7 @@
 /*This Function prints the translated Colorpair names from Pairnumber
  * \param     colorpair             Pointer to Major and Minor color pair
  * \param     buffer                buffer storing color strings                     */
-void ColorPairToString(const ColorPair* colorPair, char* buffer) {
+void ConvertColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer,"%s %s",
         MajorColorNames[colorPair->majorColor],
         MinorColorNames[colorPair->minorColor]);
