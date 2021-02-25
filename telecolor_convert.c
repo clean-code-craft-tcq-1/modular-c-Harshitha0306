@@ -36,9 +36,10 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
 }
+/*This Function prints the Reference manual for 25 Colorcode pair*/
 void DisplayManualReference(){
 	int pin_no =1,major,minor;
-	Printf("REFERENCE MANUAL\n");
+	printf("REFERENCE MANUAL\n");
 	printf("Color(Minor/Major)\t\t\tPin.no\n\n");
 	for(major = 0; major < numberOfMajorColors; major++){
 	    for(minor = 0; minor < numberOfMinorColors; minor++){
