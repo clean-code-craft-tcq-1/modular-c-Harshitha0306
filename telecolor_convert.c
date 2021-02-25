@@ -39,7 +39,7 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 /*This Function prints the Reference manual for 25 Colorcode pair*/
 void DisplayManualReference(){
 	int pin_no =1,major,minor;
-	printf("REFERENCE MANUAL\n");
+	printf("\n ******REFERENCE MANUAL******\n");
 	printf("Color(Minor/Major)\t\t\tPin.no\n\n");
 	for(major = 0; major < numberOfMajorColors; major++){
 	    for(minor = 0; minor < numberOfMinorColors; minor++){
