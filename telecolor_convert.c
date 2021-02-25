@@ -41,7 +41,7 @@ void DisplayManualReference(){
 	printf("Color(Minor/Major)\t\t\t\tPin.no\n\n");
 	for(major = 0; major <= numberOfMajorColors; major++){
 	    for(minor = 0; minor <= numberOfMinorColors; minor++){
-	       printf("%s/%s,\t\t\t\t%d",MinorColorNames[minor],MajorColorNames[major],pin_no);
+	       printf("%s/%s,\t\t\t\t%d\n",MinorColorNames[minor],MajorColorNames[major],pin_no);
 		   pin_no++;
 		}
 	}
