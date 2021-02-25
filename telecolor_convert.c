@@ -38,10 +38,11 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 }
 void DisplayManualReference(){
 	int pin_no =1,major,minor;
-	printf("Color(Minor/Major)\t\t\t\tPin.no\n\n");
-	for(major = 0; major <= numberOfMajorColors; major++){
-	    for(minor = 0; minor <= numberOfMinorColors; minor++){
-	       printf("%s/%s,\t\t\t\t%d\n",MinorColorNames[minor],MajorColorNames[major],pin_no);
+	Printf("REFERENCE MANUAL\n");
+	printf("Color(Minor/Major)\t\t\tPin.no\n\n");
+	for(major = 0; major < numberOfMajorColors; major++){
+	    for(minor = 0; minor < numberOfMinorColors; minor++){
+	       printf("%s/%s\t\t\t\t%d\n",MinorColorNames[minor],MajorColorNames[major],pin_no);
 		   pin_no++;
 		}
 	}
